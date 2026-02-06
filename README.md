@@ -15,5 +15,3 @@
 ## Format Folder
 Nama_NIM/
   jawaban.py
-
-

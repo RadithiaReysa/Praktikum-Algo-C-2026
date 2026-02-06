@@ -43,4 +43,3 @@ def info(nama, *hobi, kota="Bandung"):
     print("Kota:", kota)
 
 info("Eka", "Membaca", "Menulis")   # positional, *args, dan default argument
-

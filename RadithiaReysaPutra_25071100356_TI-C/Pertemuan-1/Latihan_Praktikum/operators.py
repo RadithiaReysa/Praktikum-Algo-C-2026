@@ -60,3 +60,22 @@ x = 5
 print(x > 3 or x < 4) #penggunaan or
 x = 5
 print(not(x > 3 and x < 10)) #penggunaan not
+
+#Identity Operators
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+
+print(x is z)    # True → z menunjuk ke objek yang sama dengan x (alamat memori sama)
+print(x is y)    # False → x dan y objek berbeda walaupun isinya sama
+print(x == y)    # True → membandingkan isi/data, bukan objeknya
+print(x is not z)   # False → z dan x adalah objek yang sama di memori
+print(x is not y)   # True → x dan y objek berbeda walaupun isinya sama
+print(x != y)       # False → isinya sama, jadi dianggap tidak berbeda
+
+#membership operators
+x = ["apple", "banana"]
+print("banana" in x)   # True → karena "banana" ada di dalam list x
+x = ["apple", "banana"]
+print("pineapple" not in x) # True → karena "pineapple" TIDAK ada di dalam list x
+
